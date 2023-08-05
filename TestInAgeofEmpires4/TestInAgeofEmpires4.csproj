@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MemoryAndSig\MemoryAndSig.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="PeNet">
+      <HintPath>..\..\PeNet-master\src\PeNet\bin\Release\net7\PeNet.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
